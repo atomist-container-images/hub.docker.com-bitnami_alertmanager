@@ -1,12 +1,21 @@
-# Tags: latest, 0.24.0-debian-10-r34, 0.24.0, 0-debian-10, 0
+# Tags: latest, 0.24.0-debian-10-r37, 0.24.0, 0-debian-10, 0
 FROM bitnami/alertmanager:latest
-FROM bitnami/alertmanager:0.24.0-debian-10-r34
+FROM bitnami/alertmanager:0.24.0-debian-10-r37
 FROM bitnami/alertmanager:0.24.0
 FROM bitnami/alertmanager:0-debian-10
 FROM bitnami/alertmanager:0
 
 # Tags: _
 FROM bitnami/alertmanager:_
+
+# Tags: 0.24.0-debian-10-r36
+FROM bitnami/alertmanager:0.24.0-debian-10-r36
+
+# Tags: 0.24.0-debian-10-r35
+FROM bitnami/alertmanager:0.24.0-debian-10-r35
+
+# Tags: 0.24.0-debian-10-r34
+FROM bitnami/alertmanager:0.24.0-debian-10-r34
 
 # Tags: 0.24.0-debian-10-r33
 FROM bitnami/alertmanager:0.24.0-debian-10-r33
@@ -82,18 +91,3 @@ FROM bitnami/alertmanager:0.24.0-debian-10-r10
 
 # Tags: 0.24.0-debian-10-r9
 FROM bitnami/alertmanager:0.24.0-debian-10-r9
-
-# Tags: 0.24.0-debian-10-r8
-FROM bitnami/alertmanager:0.24.0-debian-10-r8
-
-# Tags: 0.24.0-debian-10-r7
-FROM bitnami/alertmanager:0.24.0-debian-10-r7
-
-# Tags: 0.24.0-debian-10-r6
-FROM bitnami/alertmanager:0.24.0-debian-10-r6
-
-# Tags: 0.24.0-debian-10-r5
-FROM bitnami/alertmanager:0.24.0-debian-10-r5
-
-# Tags: 0.24.0-debian-10-r4
-FROM bitnami/alertmanager:0.24.0-debian-10-r4
